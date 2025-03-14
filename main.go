@@ -1,6 +1,8 @@
 package main
 
+import "GoLangBank/api"
+
 func main() {
-    server := NewAPIServer(":3000")
+    server := api.NewAPIServer(":3000")
     server.Run()
 }
